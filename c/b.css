@@ -9,7 +9,7 @@ a,blockquote,body,button,div,dl,dt,dd,form,fieldset,h1,h2,h3,h4,h5,h6,html,img,i
 	padding:0;
 }
 body{
-	background:#FFF url(/mktest/eye/i/shell/bg.png) repeat-x 0 0;
+	background:#FFF url(/i/shell/bg.png) repeat-x 0 0;
 	color:#444;
 	position:relative;
 }
@@ -78,7 +78,7 @@ abbr{
 	position:relative;
 }
 #headerinner{
-	background:transparent url(/mktest/eye/i/shell/header.png) no-repeat 50% 0;
+	background:transparent url(/i/shell/header.png) no-repeat 50% 0;
 	height:80px;
 	margin:0 auto;
 	position:relative;
@@ -94,6 +94,10 @@ abbr{
 }
 #header_contact em{
 	font-size:17px;
+}
+#header_contact a{
+  text-decoration:none;
+  color:#FFF;
 }
 #logo{
 	display:block;
@@ -112,7 +116,7 @@ abbr{
 	text-transform:uppercase;
 }
 #navinner{
-	background:transparent url(/mktest/eye/i/shell/nav.png) no-repeat 0 0;
+	background:transparent url(/i/shell/nav.png) no-repeat 0 0;
 	margin:0 auto;
 	position:relative;
 	width:980px;
@@ -149,13 +153,13 @@ abbr{
 	text-shadow:-1px 1px 0 #000;
 }
 #nav li a:hover{
-	background:url(/mktest/eye/i/shell/nav_over.png) repeat-x scroll 0 0 transparent;
+	background:url(/i/shell/nav_over.png) repeat-x scroll 0 0 transparent;
 }
 #nav .nav_on,#nav li a.nav_on:hover{
-	background:url(/mktest/eye/i/shell/nav_on.png) repeat-x scroll 0 0 transparent;
+	background:url(/i/shell/nav_on.png) repeat-x scroll 0 0 transparent;
 }
 #content{
-	background:#FFF url(/mktest/eye/i/shell/content.png) repeat-x 0 100%;
+	background:#FFF url(/i/shell/content.png) repeat-x 0 100%;
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
 	clear:both;
@@ -178,6 +182,12 @@ abbr{
 	float:left;
 	width:215px;
 	margin-right:20px;
+  text-align: center;
+  text-decoration: none;
+  color:#002868;
+}
+.one-forth:hover{
+  color: red;
 }
 .one-fourth.last{
 	margin-right:0;
@@ -219,7 +229,7 @@ p{
 	margin-top:10px;
 }
 #footerinner{
-	background:transparent url(/mktest/eye/i/shell/footer.png) repeat-x 0 0;
+	background:transparent url(/i/shell/footer.png) repeat-x 0 0;
 	border-top-left-radius:10px;
 	border-top-right-radius:10px;
 	min-height:75px;
@@ -239,6 +249,9 @@ p{
 #footer_contact{
 	float:right;
 	width:225px;
+}
+#footer_contact a{
+  text-decoration:none;
 }
 #footer ul{
 	margin-bottom:20px;
