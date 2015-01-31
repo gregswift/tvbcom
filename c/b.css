@@ -182,12 +182,13 @@ abbr{
 	float:left;
 	width:215px;
 	margin-right:20px;
-  text-align: center;
+}
+a.one-fourth{
   text-decoration: none;
   color:#002868;
 }
-.one-forth:hover{
-  color: red;
+a.one-fourth:hover{
+  color:#c00034;
 }
 .one-fourth.last{
 	margin-right:0;
