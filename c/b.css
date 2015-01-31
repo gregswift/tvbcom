@@ -250,9 +250,6 @@ p{
 	float:right;
 	width:225px;
 }
-#footer_contact a{
-  text-decoration:none;
-}
 #footer ul{
 	margin-bottom:20px;
 	margin-top:0;
@@ -261,10 +258,18 @@ p{
 	display:inline;
 }
 #footer a{
+  text-decoration:none;
 	border-right:1px dotted #65677e;
 	color:#444;
 	font-size:11px;
 	padding:4px 12px;
+}
+#footer a:hover{
+  color:#002868;
+}
+#footer_contact a{
+	padding:0px;
+  border-right:none;
 }
 #footer li.last a{
 	border-right:none;
