@@ -1,0 +1,258 @@
+/*UNDO*/
+html{
+	font:14px/1.5 Calibri,Arial,Helvetica,sans-serif;
+	overflow-y:scroll;
+}
+a,blockquote,body,button,div,dl,dt,dd,form,fieldset,h1,h2,h3,h4,h5,h6,html,img,input,li,ul,ol,p,pre,select,textarea,table,td,th {
+	border:0;
+	margin:0;
+	padding:0;
+}
+body{
+	background:#FFF url(/mktest/eye/i/shell/bg.png) repeat-x 0 0;
+	color:#444;
+	position:relative;
+}
+.clearfix:after{
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+select,input,button,textarea{
+	font:99% "Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
+}
+pre,code,kbd,samp,tt,.codehighlight{
+	font-family:monospace;
+	line-height:100%;
+}
+pre {
+	white-space:pre-wrap;
+	word-wrap:break-word;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	empty-cells:show;
+}
+ul,ol{
+	margin:0 0 10px;
+}
+ul ul,ol ol,ul ol,ol ul{
+	margin:0;
+}
+ul{
+	list-style:disc;
+	list-style-position:outside;
+}
+ol{
+	list-style:decimal;
+	list-style-position:outside;
+}
+ul li,ol li{
+	margin:0 0 0 15px;
+}
+ul ul li,ol ol li,ul ol li, ol ul li{
+	margin:0 0 0 30px;
+}
+ol ol{
+	list-style:upper-alpha;
+}
+li p{
+	padding-bottom:0;
+}
+em,b,strong{
+	font-weight:bold;
+	font-style:normal;
+}
+abbr{
+	border-bottom:1px dotted #000;
+	cursor:help;
+}
+.clear {
+    clear: both;
+}
+#header{
+	margin-top:10px;
+	position:relative;
+}
+#headerinner{
+	background:transparent url(/mktest/eye/i/shell/header.png) no-repeat 50% 0;
+	height:80px;
+	margin:0 auto;
+	position:relative;
+	width:960px;
+}
+#header_contact{
+	color:#FFF;
+	line-height:1em;
+	text-shadow:-1px 1px 0 #000;
+	position:absolute;
+	top:10px;
+	left:725px;
+}
+#header_contact em{
+	font-size:17px;
+}
+#logo{
+	display:block;
+	height:85px;
+	width:365px;
+	margin-left:5px;
+}
+#logo img{
+	margin-top:8px;
+}
+#nav{
+	font-size:17px;
+	height:50px;
+	min-height:50px;
+	position:relative;
+	text-transform:uppercase;
+}
+#navinner{
+	background:transparent url(/mktest/eye/i/shell/nav.png) no-repeat 0 0;
+	margin:0 auto;
+	position:relative;
+	width:980px;
+}
+#nav ul{
+	margin-left:10px;
+}
+#nav li{
+	border-right:1px dotted #65677e;
+	display:table-cell;
+	height:50px;
+	position:relative;
+}
+#nav #home{
+	border-right:none;
+	width:94px;
+}
+#nav #home a{
+	width:63px;
+}
+#nav #home img{
+	margin:0 0 0 21px;
+}
+#nav li.last{
+	border-right:none;
+}
+#nav a{
+	color:#FFFFFF;
+	display:inline-block;
+	height:50px;
+	line-height:50px;
+	padding:0 20px;
+	text-decoration:none;
+	text-shadow:-1px 1px 0 #000;
+}
+#nav li a:hover{
+	background:url(/mktest/eye/i/shell/nav_over.png) repeat-x scroll 0 0 transparent;
+}
+#nav .nav_on,#nav li a.nav_on:hover{
+	background:url(/mktest/eye/i/shell/nav_on.png) repeat-x scroll 0 0 transparent;
+}
+#content{
+	background:#FFF url(/mktest/eye/i/shell/content.png) repeat-x 0 100%;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	clear:both;
+	height:100%;
+	margin:0 auto;
+	min-height:400px;
+	position:relative;
+	width:960px;
+}
+#contentinner{
+	padding:10px 20px;
+}
+.landing_img{
+	float:right;
+}
+.landing{
+	padding-right:320px;
+}
+.one-fourth{
+	float:left;
+	width:215px;
+	margin-right:20px;
+}
+.one-fourth.last{
+	margin-right:0;
+}
+.half{
+	border-right:1px solid #CCC;
+	float:left;
+	margin-bottom:20px;
+	padding-right:19px;
+	width:440px;
+}
+.half.last{
+	border-right:0;
+	margin-left:20px;
+	padding-right:0;
+}
+.product{
+	float:left;
+}
+.product img{
+	border-bottom:1px solid #CCC;
+}
+h1{
+	margin:10px 0 15px;
+}
+h2{
+	margin:10px 0 15px;
+}
+p{
+	margin:0 0 10px;
+}
+.apptphone{
+	color:#C00;
+	font-weight:bold;
+}
+#footer{
+	clear:both;
+	font-size:12px;
+	margin-top:10px;
+}
+#footerinner{
+	background:transparent url(/mktest/eye/i/shell/footer.png) repeat-x 0 0;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	min-height:75px;
+	margin:0 auto;
+	padding:20px;
+	position:relative;
+	width:940px;
+}
+#footer_copyright{
+	clear:left;
+	float:left;
+	margin-left:10px;
+}
+#footer_nav{
+	float:left;
+}
+#footer_contact{
+	float:right;
+	width:225px;
+}
+#footer ul{
+	margin-bottom:20px;
+	margin-top:0;
+}
+#footer li{
+	display:inline;
+}
+#footer a{
+	border-right:1px dotted #65677e;
+	color:#444;
+	font-size:11px;
+	padding:4px 12px;
+}
+#footer li.last a{
+	border-right:none;
+}
