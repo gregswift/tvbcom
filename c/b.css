@@ -36,27 +36,27 @@ table{
 	border-spacing:0;
 	empty-cells:show;
 }
-ul,ol{
+#content ul,#content ol{
 	margin:0 0 10px;
 }
-ul ul,ol ol,ul ol,ol ul{
+#content ul ul,#content ol ol,#content ul ol,#content ol ul{
 	margin:0;
 }
-ul{
+#content ul{
 	list-style:disc;
 	list-style-position:outside;
 }
-ol{
+#content ol{
 	list-style:decimal;
 	list-style-position:outside;
 }
-ul li,ol li{
+#content ul li,#content ol li{
 	margin:0 0 0 15px;
 }
-ul ul li,ol ol li,ul ol li, ol ul li{
+#content ul ul li,#content ol ol li,#content ul ol li,#content ol ul li{
 	margin:0 0 0 30px;
 }
-ol ol{
+#content ol ol{
 	list-style:upper-alpha;
 }
 li p{
@@ -226,7 +226,6 @@ p{
 }
 #footer{
 	clear:both;
-	font-size:12px;
 	margin-top:10px;
 }
 #footerinner{
@@ -262,7 +261,6 @@ p{
   text-decoration:none;
 	border-right:1px dotted #65677e;
 	color:#444;
-	font-size:11px;
 	padding:4px 12px;
 }
 #footer a:hover{
