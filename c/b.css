@@ -209,6 +209,11 @@ a.one-fourth:hover{
 	margin-left:20px;
 	padding-right:0;
 }
+.product,.productlarge{
+	background-color:#FFF;
+	border-bottom:1px solid #CCC;
+	float:left;
+}
 .contacts .product,.contacts .productlarge{
 	border-top:1px solid #FFF;
 }
