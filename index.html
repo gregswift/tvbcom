@@ -5,6 +5,15 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Today's Vision on Bulverde Rd: Coming soon to the northside of San Antonio</title>
 	<link href="/c/b.css" media="all" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+	function swapImg(imagename, dir) {
+		if (dir=="on"){
+			document.getElementById(imagename).src = "home_" + imagename + "_on";
+		}ele{
+			document.getElementById(imagename).src = "home_" + imagename;
+		}
+	}
+	</script>
 </head>
 <body>
 	<div id="header">
@@ -32,36 +41,36 @@
 		<div id="contentinner">
 			<h1>Today's Vision on Bulverde Rd.</h1>
 			<div class="one-fourth">
-        <a href="/about_us/" class="one-fourth">
-  				<img alt="" src="/i/drswift.png" />
-				  <h2>About Us</h2>
-        </a>
-        <p>Dr. Swift is a therapeutic optometrist and certified optometric glaucoma specialist. Dr. Swift has been practicing in the San Antonio area for over 6 years.</p>
-        <p><a href="/about_us/">Read more</a></p>
+        		<a href="/about_us/" class="one-fourth" onmouseover="javascript:swapImg('about', 'on')" onmouseout="javascript:swapImg('about', 'off')">
+					<img alt="" src="/i/home_about.png" />
+					<h2>About Us</h2>
+				</a>
+				<p>Dr. Swift is a therapeutic optometrist and certified optometric glaucoma specialist. Dr. Swift has been practicing in the San Antonio area for over 6 years.</p>
+				<p><a href="/about_us/">Read more</a></p>
 			</div>
 			<div class="one-fourth">
-				<a href="services/" class="one-fourth">
-			  	<img alt="" src="/i/services.png" />
-		  		<h2 class="one-fourth">Services</h2>
-        </a>
-        <p>Today's Vision on Bulverde will offer thorough, complete eye examinations to uncover any visual and/ or medical ocular complications such as, diabetic retinopathy, cataract, glaucoma, and "pink eye" type infections.</p>
-        <p><a href="/services/">Read more</a></p>
+				<a href="services/" class="one-fourth" onmouseover="javascript:swapImg('services', 'on')" onmouseout="javascript:swapImg('services', 'off)">
+					<img alt="" src="/i/home_services.png" />
+					<h2 class="one-fourth">Services</h2>
+        		</a>
+				<p>Today's Vision on Bulverde will offer thorough, complete eye examinations to uncover any visual and/ or medical ocular complications such as, diabetic retinopathy, cataract, glaucoma, and "pink eye" type infections.</p>
+				<p><a href="/services/">Read more</a></p>
 			</div>
 			<div class="one-fourth">
-        <a href="products/" class="one-fourth">
-	  			<img alt="" src="/i/frames.png" />
-  				<h2 class="one-fourth">Glasses &amp; Contacts</h2>
-        </a>
-        <p>Our optical has hundreds of frames to choose from, including a wide selection of children and teen frames. Some of our premiere frame lines include Prada, Tom Ford, Michael Kors, Ray Ban and Tory Burch. We take pride in using top quality Zeiss lenses with multiple pair savings.</p>
-        <p><a href="/products/">Read more</a></p>
+        		<a href="products/" class="one-fourth" onmouseover="javascript:swapImg('products', 'on')" onmouseout="javascript:swapImg('products', 'off)">
+					<img alt="" src="/i/home_products.png" />
+					<h2 class="one-fourth">Glasses &amp; Contacts</h2>
+        		</a>
+				<p>Our optical has hundreds of frames to choose from, including a wide selection of children and teen frames. Some of our premiere frame lines include Prada, Tom Ford, Michael Kors, Ray Ban and Tory Burch. We take pride in using top quality Zeiss lenses with multiple pair savings.</p>
+				<p><a href="/products/">Read more</a></p>
 			</div>
 			<div class="one-fourth last">
-				<a href="contact_us/" class="one-fourth">
-				  <img alt="" src="/i/appt.png" />
-			  	<h2 class="one-fourth">Make An Appointment</h2>
-        </a>
-        <p>Today's Vision Bulverde opens February 20th! We take a wide variety of vision and medical insurances. Now accepting patients age 6 months to 100+ years. Call now to make an appointment for the whole family.</p>
-        <p><a href="/appointments/">Read more</a></p>
+				<a href="contact_us/" class="one-fourth" onmouseover="javascript:swapImg('appointment', 'on')" onmouseout="javascript:swapImg('appointment', 'off)">
+					<img alt="" src="/i/home_appointment.png" />
+			  		<h2 class="one-fourth">Make An Appointment</h2>
+        		</a>
+        		<p>Today's Vision Bulverde opens February 20th! We take a wide variety of vision and medical insurances. Now accepting patients age 6 months to 100+ years. Call now to make an appointment for the whole family.</p>
+        		<p><a href="/appointments/">Read more</a></p>
 			</div>
 		</div>
 	</div>
