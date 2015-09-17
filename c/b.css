@@ -114,12 +114,23 @@ abbr{
 	min-height:50px;
 	position:relative;
 	text-transform:uppercase;
-}
-#navinner{
 	background:transparent url(/i/shell/nav.png) no-repeat 0 0;
 	margin:0 auto;
-	position:relative;
 	width:980px;
+}
+#navsocial{
+       float:right;
+       width:100px;
+       height:50px;
+}
+#navsocial a{
+       margin:10px 10px 0 10px;
+       padding:0px;
+       width:29px;
+}
+#navinner{
+	position:relative;
+	width:800px;
 }
 #nav ul{
 	margin-left:10px;
