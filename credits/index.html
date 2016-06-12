@@ -9,11 +9,10 @@
 <body>
     <div id="header">
         <div id="headerinner">
-            <a id="logo" href="/"><img alt="Today's Vision on Bulverde" src="/i/shell/logo.png" /></a>
+            <span property="name" content="Today's Vision Bulverde"></span>
+            <a id="logo" href="/"><img alt="Today's Vision on Bulverde Rd." src="/i/shell/logo.png" /></a>
             <div id="header_contact">
-                <p><em>17230 Bulverde Rd. Ste 104<br />
-                San Antonio, TX 78247</em></p>
-                <p><em>210-307-4749</em></p>
+                <span><em>210-307-4749</em></span>
             </div>
         </div>
     </div>
@@ -69,13 +68,18 @@
             </div>
         </div>
     </div>
-    <div id="footer">
-        <div id="footerinner">
+   <div id="footer">
+        <div id="footerinner" itemscope itemtype="http://schema.org/LocalBusiness">
             <div id="footer_contact">
-                <p><a href="https://www.google.com/maps/place/17230+Bulverde+Rd+%23104,+San+Antonio,+TX+78247/@29.599377,-98.418845,16z/data=!4m2!3m1!1s0x865c8bc263576c13:0x6f5e54fb5b9a8845?hl=en-US">17230 Bulverde Rd. Ste 104<br />
-                San Antonio, TX 78247</a></p>
-                <p>Phone 210-307-4749<br />
-                Fax 210-307-4629</p>
+                <span itemprop="legalName">Today's Vision Bulverde</span><br />
+                <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <a href="https://www.google.com/maps/place/17230+Bulverde+Rd+%23104,+San+Antonio,+TX+78247/@29.599377,-98.418845,16z">
+                        <span itemprop="streetAddress">17230 Bulverde Rd. Ste 104</span><br />
+                        <span itemprop="addressLocality">San Antonio</span>,
+                        <span itemprop="addressRegion">TX</span> <span itemprop="postalCode">78247</span>
+                    </a>
+                <p><em>Main: <span itemprop="telephone">210-307-4749</span></em><br />
+                <em>Fax: <span itemprop="faxNumber">210-307-4629</span></em></p>
             </div>
             <ul id="footer_nav">
                 <li><a href="/">Home</a></li>
@@ -86,7 +90,7 @@
                 <li class="last"><a href="/credits/">Credits</a></li>
             </ul>
             <div id="footer_copyright">
-                <p>&copy; 2015 Today's Vision on Bulverde</p>
+                <p>&copy; 2015 Today's Vision Bulverde</p>
             </div>
         </div>
     </div>

@@ -17,18 +17,11 @@
 </head>
 <body>
     <div id="header">
-        <div id="headerinner" itemscope itemtype="http://schema.org/Organization">
+        <div id="headerinner">
             <span property="name" content="Today's Vision Bulverde"></span>
-            <a id="logo" href="/"><img itemprop="logo" alt="Today's Vision on Bulverde Rd." src="/i/shell/logo.png" /></a>
-            <div id="header_contact" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                <p><em>
-                    <a href="https://www.google.com/maps/place/17230+Bulverde+Rd+%23104,+San+Antonio,+TX+78247/@29.599377,-98.418845,16z">
-                        <span itemprop="streetAddress">17230 Bulverde Rd. Ste 104</span><br />
-                        <span itemprop="addressLocality">San Antonio</span>,
-                        <span itemprop="addressRegion">TX</span> <span property="postalCode">78247</span>
-                    </a>
-                </em></p>
-                <p><em><span itemprop="telephone">210-307-4749</span></em></p>
+            <a id="logo" href="/"><img alt="Today's Vision on Bulverde Rd." src="/i/shell/logo.png" /></a>
+            <div id="header_contact">
+                <span><em>210-307-4749</em></span>
             </div>
         </div>
     </div>
@@ -86,13 +79,18 @@
             </div>
         </div>
     </div>
-    <div id="footer">
-        <div id="footerinner">
+   <div id="footer">
+        <div id="footerinner" itemscope itemtype="http://schema.org/LocalBusiness">
             <div id="footer_contact">
-                <p><a href="https://www.google.com/maps/place/17230+Bulverde+Rd+%23104,+San+Antonio,+TX+78247/@29.599377,-98.418845,16z">17230 Bulverde Rd. Ste 104<br />
-                San Antonio, TX 78247</a></p>
-                <p>Phone 210-307-4749<br />
-                Fax 210-307-4629</p>
+                <span itemprop="legalName">Today's Vision Bulverde</span><br />
+                <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <a href="https://www.google.com/maps/place/17230+Bulverde+Rd+%23104,+San+Antonio,+TX+78247/@29.599377,-98.418845,16z">
+                        <span itemprop="streetAddress">17230 Bulverde Rd. Ste 104</span><br />
+                        <span itemprop="addressLocality">San Antonio</span>,
+                        <span itemprop="addressRegion">TX</span> <span itemprop="postalCode">78247</span>
+                    </a>
+                <p><em>Main: <span itemprop="telephone">210-307-4749</span></em><br />
+                <em>Fax: <span itemprop="faxNumber">210-307-4629</span></em></p>
             </div>
             <ul id="footer_nav">
                 <li><a href="/">Home</a></li>
